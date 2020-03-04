@@ -374,7 +374,7 @@ public class MultiChoiceQuiz extends javax.swing.JFrame {
          scorelbl.setText("you got "+answersright+"/5 I Know you can do better if you try again");
      
    percent=answersright*100/5;
-   Percentlbl.setText("you got "+percent);
+   Percentlbl.setText("you got "+percent+"%");
      
     }//GEN-LAST:event_answersbtnActionPerformed
 
