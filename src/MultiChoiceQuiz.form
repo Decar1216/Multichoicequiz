@@ -23,7 +23,7 @@
   <Layout>
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
-          <Component id="jPanel2" min="-2" pref="648" max="-2" attributes="0"/>
+          <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
       </Group>
     </DimensionLayout>
     <DimensionLayout dim="1">
@@ -38,66 +38,10 @@
       <Layout>
         <DimensionLayout dim="0">
           <Group type="103" groupAlignment="0" attributes="0">
-              <Group type="102" alignment="0" attributes="0">
-                  <Group type="103" groupAlignment="0" attributes="0">
-                      <Group type="102" alignment="0" attributes="0">
-                          <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
-                          <Component id="q1lbl" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
-                          <Component id="q4lbl" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                      <Group type="102" alignment="0" attributes="0">
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Component id="q2txt" min="-2" pref="65" max="-2" attributes="0"/>
-                      </Group>
-                      <Group type="102" alignment="1" attributes="0">
-                          <Group type="103" groupAlignment="0" attributes="0">
-                              <Group type="102" attributes="0">
-                                  <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
-                                  <Group type="103" groupAlignment="0" attributes="0">
-                                      <Component id="d2" alignment="0" min="-2" max="-2" attributes="0"/>
-                                      <Component id="c2" alignment="0" min="-2" max="-2" attributes="0"/>
-                                      <Component id="a2" alignment="0" min="-2" max="-2" attributes="0"/>
-                                      <Component id="jLabel5" alignment="0" min="-2" max="-2" attributes="0"/>
-                                      <Component id="jLabel6" alignment="0" min="-2" max="-2" attributes="0"/>
-                                      <Component id="jLabel7" alignment="0" min="-2" max="-2" attributes="0"/>
-                                      <Component id="q1txt" alignment="0" min="-2" pref="62" max="-2" attributes="0"/>
-                                      <Component id="b2" alignment="0" min="-2" max="-2" attributes="0"/>
-                                      <Component id="jLabel8" min="-2" max="-2" attributes="0"/>
-                                  </Group>
-                                  <EmptySpace max="32767" attributes="0"/>
-                              </Group>
-                              <Group type="102" alignment="1" attributes="0">
-                                  <EmptySpace max="-2" attributes="0"/>
-                                  <Component id="q2lbl" max="32767" attributes="0"/>
-                                  <EmptySpace min="-2" pref="81" max="-2" attributes="0"/>
-                              </Group>
-                          </Group>
-                          <Group type="103" groupAlignment="0" attributes="0">
-                              <Component id="answersbtn" min="-2" max="-2" attributes="0"/>
-                              <Group type="102" alignment="0" attributes="0">
-                                  <EmptySpace min="-2" pref="109" max="-2" attributes="0"/>
-                                  <Component id="scorelbl" min="-2" pref="105" max="-2" attributes="0"/>
-                              </Group>
-                              <Group type="103" alignment="0" groupAlignment="0" attributes="0">
-                                  <Group type="103" alignment="1" groupAlignment="0" attributes="0">
-                                      <Component id="q5lbl" min="-2" pref="304" max="-2" attributes="0"/>
-                                      <Component id="q5txt" alignment="0" min="-2" pref="59" max="-2" attributes="0"/>
-                                  </Group>
-                                  <Component id="q4txt" alignment="0" min="-2" pref="53" max="-2" attributes="0"/>
-                                  <Component id="jLabel9" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jLabel10" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jLabel11" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jLabel12" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jLabel13" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jLabel14" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jLabel15" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jLabel16" alignment="0" min="-2" max="-2" attributes="0"/>
-                              </Group>
-                          </Group>
-                      </Group>
-                  </Group>
-                  <EmptySpace min="-2" pref="307" max="-2" attributes="0"/>
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="q2lbl" max="32767" attributes="0"/>
+                  <EmptySpace min="-2" pref="385" max="-2" attributes="0"/>
               </Group>
               <Group type="102" attributes="0">
                   <Group type="103" groupAlignment="0" attributes="0">
@@ -109,16 +53,70 @@
                               <Component id="b1lbl" min="-2" max="-2" attributes="0"/>
                               <Component id="a1lbl" min="-2" max="-2" attributes="0"/>
                           </Group>
+                          <EmptySpace min="-2" pref="131" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="103" alignment="1" groupAlignment="0" attributes="0">
+                                      <Component id="q5lbl" min="-2" pref="304" max="-2" attributes="0"/>
+                                      <Component id="q5txt" alignment="0" min="-2" pref="59" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="q4txt" alignment="0" min="-2" pref="53" max="-2" attributes="0"/>
+                                  <Component id="a4" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="b4" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="a5" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="b5" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="c5" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="d5" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="d4" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Component id="q4lbl" min="-2" max="-2" attributes="0"/>
+                              <Component id="c4" min="-2" max="-2" attributes="0"/>
+                          </Group>
                       </Group>
                       <Group type="102" alignment="0" attributes="0">
                           <EmptySpace max="-2" attributes="0"/>
                           <Component id="q3txt" min="-2" pref="65" max="-2" attributes="0"/>
                       </Group>
                   </Group>
-                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  <EmptySpace min="0" pref="30" max="32767" attributes="0"/>
               </Group>
               <Group type="102" attributes="0">
                   <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="d2" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="c2" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="a2" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="q1txt" alignment="0" min="-2" pref="62" max="-2" attributes="0"/>
+                              <Component id="b2" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="b3" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="c3" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="d3" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="266" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="answersbtn" min="-2" max="-2" attributes="0"/>
+                                      <Component id="Percentlbl" min="-2" pref="129" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="a3" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Component id="scorelbl" min="-2" pref="275" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
+                          <Component id="q1lbl" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="q2txt" min="-2" pref="65" max="-2" attributes="0"/>
+                      </Group>
                       <Group type="102" alignment="0" attributes="0">
                           <EmptySpace max="-2" attributes="0"/>
                           <Component id="q3lbl" min="-2" pref="259" max="-2" attributes="0"/>
@@ -132,7 +130,7 @@
                           <Component id="instructionslbl" min="-2" max="-2" attributes="0"/>
                       </Group>
                   </Group>
-                  <EmptySpace max="32767" attributes="0"/>
+                  <EmptySpace min="-2" pref="163" max="-2" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
@@ -144,13 +142,12 @@
                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
                   <Component id="instructionslbl" min="-2" max="-2" attributes="0"/>
                   <EmptySpace type="separate" min="-2" max="-2" attributes="0"/>
-                  <Group type="103" groupAlignment="3" attributes="0">
-                      <Component id="q1lbl" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="q4lbl" alignment="3" min="-2" max="-2" attributes="0"/>
-                  </Group>
+                  <Component id="q1lbl" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="q4lbl" min="-2" max="-2" attributes="0"/>
                   <EmptySpace max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
-                      <Group type="102" alignment="1" attributes="0">
+                      <Group type="102" attributes="0">
                           <Component id="a1lbl" min="-2" max="-2" attributes="0"/>
                           <EmptySpace type="unrelated" max="-2" attributes="0"/>
                           <Component id="b1lbl" min="-2" max="-2" attributes="0"/>
@@ -173,48 +170,51 @@
                           <EmptySpace max="-2" attributes="0"/>
                           <Component id="q2txt" min="-2" max="-2" attributes="0"/>
                       </Group>
-                      <Group type="102" alignment="1" attributes="0">
-                          <Component id="jLabel9" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                          <Component id="jLabel10" min="-2" max="-2" attributes="0"/>
+                      <Group type="102" attributes="0">
+                          <Component id="a4" min="-2" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
-                          <Component id="jLabel11" min="-2" max="-2" attributes="0"/>
+                          <Component id="b4" min="-2" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
-                          <Component id="jLabel12" min="-2" max="-2" attributes="0"/>
+                          <Component id="c4" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+                          <Component id="d4" min="-2" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
                           <Component id="q4txt" min="-2" max="-2" attributes="0"/>
                           <EmptySpace min="-2" pref="1" max="-2" attributes="0"/>
                           <Component id="q5lbl" min="-2" pref="14" max="-2" attributes="0"/>
                           <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                          <Component id="jLabel13" min="-2" max="-2" attributes="0"/>
+                          <Component id="a5" min="-2" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
-                          <Component id="jLabel14" min="-2" max="-2" attributes="0"/>
+                          <Component id="b5" min="-2" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
-                          <Component id="jLabel15" min="-2" max="-2" attributes="0"/>
+                          <Component id="c5" min="-2" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
-                          <Component id="jLabel16" min="-2" max="-2" attributes="0"/>
+                          <Component id="d5" min="-2" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
                           <Component id="q5txt" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
                       </Group>
                   </Group>
                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                  <Component id="q3lbl" min="-2" max="-2" attributes="0"/>
-                  <EmptySpace min="-2" pref="13" max="-2" attributes="0"/>
-                  <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="103" groupAlignment="1" attributes="0">
                       <Group type="102" alignment="1" attributes="0">
-                          <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
+                          <Component id="q3lbl" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="13" max="-2" attributes="0"/>
+                          <Component id="a3" min="-2" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
-                          <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
+                          <Component id="b3" min="-2" max="-2" attributes="0"/>
                           <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
-                          <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
+                          <Component id="c3" min="-2" max="-2" attributes="0"/>
                       </Group>
-                      <Component id="scorelbl" alignment="1" min="-2" pref="23" max="-2" attributes="0"/>
+                      <Group type="102" alignment="1" attributes="0">
+                          <Component id="scorelbl" min="-2" pref="23" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="Percentlbl" min="-2" pref="22" max="-2" attributes="0"/>
+                      </Group>
                   </Group>
                   <EmptySpace max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
-                      <Component id="jLabel8" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="answersbtn" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="d3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="answersbtn" alignment="0" min="-2" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace max="-2" attributes="0"/>
                   <Component id="q3txt" min="-2" max="-2" attributes="0"/>
@@ -257,7 +257,7 @@
         </Component>
         <Component class="javax.swing.JLabel" name="q4lbl">
           <Properties>
-            <Property name="text" type="java.lang.String" value="Question 4.how does the human body regulate enzyme activity"/>
+            <Property name="text" type="java.lang.String" value="Question 4. how does the human body regulate enzyme activity"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="q5lbl">
@@ -275,12 +275,12 @@
         </Component>
         <Component class="javax.swing.JLabel" name="a1lbl">
           <Properties>
-            <Property name="text" type="java.lang.String" value="a)"/>
+            <Property name="text" type="java.lang.String" value="a) the creation of  immunoglobulins and antibodies "/>
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="b1lbl">
           <Properties>
-            <Property name="text" type="java.lang.String" value="b)"/>
+            <Property name="text" type="java.lang.String" value="b) the Transportation of nutrients"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="c1lbl">
@@ -290,7 +290,7 @@
         </Component>
         <Component class="javax.swing.JLabel" name="d1lbl">
           <Properties>
-            <Property name="text" type="java.lang.String" value="d)"/>
+            <Property name="text" type="java.lang.String" value="d) the process of storing nutrients"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JTextField" name="q1txt">
@@ -318,7 +318,7 @@
         </Component>
         <Component class="javax.swing.JLabel" name="b2">
           <Properties>
-            <Property name="text" type="java.lang.String" value=" b) 3:2:9"/>
+            <Property name="text" type="java.lang.String" value="b) 3:2:9"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="c2">
@@ -331,65 +331,67 @@
             <Property name="text" type="java.lang.String" value="d) 1:2:1"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JLabel" name="jLabel5">
+        <Component class="javax.swing.JLabel" name="a3">
           <Properties>
             <Property name="text" type="java.lang.String" value="a) Ester linkages"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JLabel" name="jLabel6">
+        <Component class="javax.swing.JLabel" name="b3">
           <Properties>
-            <Property name="text" type="java.lang.String" value="b)"/>
+            <Property name="text" type="java.lang.String" value="b)polypeptide"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JLabel" name="jLabel7">
+        <Component class="javax.swing.JLabel" name="c3">
           <Properties>
-            <Property name="text" type="java.lang.String" value="c)"/>
+            <Property name="text" type="java.lang.String" value="c) triglycerides"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JLabel" name="jLabel8">
+        <Component class="javax.swing.JLabel" name="d3">
           <Properties>
-            <Property name="text" type="java.lang.String" value="d)"/>
+            <Property name="text" type="java.lang.String" value="d) Polar Covalent"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JLabel" name="jLabel9">
+        <Component class="javax.swing.JLabel" name="a4">
           <Properties>
-            <Property name="text" type="java.lang.String" value="a)"/>
+            <Property name="text" type="java.lang.String" value="a) Feedback regulation "/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JLabel" name="jLabel10">
+        <Component class="javax.swing.JLabel" name="b4">
           <Properties>
             <Property name="text" type="java.lang.String" value="b) Feedback inhibition"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JLabel" name="jLabel11">
+        <Component class="javax.swing.JLabel" name="c4">
           <Properties>
-            <Property name="text" type="java.lang.String" value="c)"/>
+            <Property name="text" type="java.lang.String" value="c) Enzyme kinetics "/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JLabel" name="jLabel12">
+        <Component class="javax.swing.JLabel" name="d4">
           <Properties>
-            <Property name="text" type="java.lang.String" value="d)"/>
+            <Property name="text" type="java.lang.String" value="d) Competitive inhibitor "/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JLabel" name="jLabel13">
+        <Component class="javax.swing.JLabel" name="a5">
           <Properties>
             <Property name="text" type="java.lang.String" value="a) Disulfide bridge"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JLabel" name="jLabel14">
+        <Component class="javax.swing.JLabel" name="b5">
           <Properties>
-            <Property name="text" type="java.lang.String" value="b)"/>
+            <Property name="text" type="java.lang.String" value="b) resulfide bridge"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JLabel" name="jLabel15">
+        <Component class="javax.swing.JLabel" name="c5">
           <Properties>
-            <Property name="text" type="java.lang.String" value="c)"/>
+            <Property name="text" type="java.lang.String" value="c) Globular Bonds"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JLabel" name="jLabel16">
+        <Component class="javax.swing.JLabel" name="d5">
           <Properties>
-            <Property name="text" type="java.lang.String" value="d)"/>
+            <Property name="text" type="java.lang.String" value="d) Saturated Bonds"/>
           </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="Percentlbl">
         </Component>
       </SubComponents>
     </Container>

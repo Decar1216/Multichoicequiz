@@ -49,18 +49,19 @@ public class MultiChoiceQuiz extends javax.swing.JFrame {
         b2 = new javax.swing.JLabel();
         c2 = new javax.swing.JLabel();
         d2 = new javax.swing.JLabel();
-        jLabel5 = new javax.swing.JLabel();
-        jLabel6 = new javax.swing.JLabel();
-        jLabel7 = new javax.swing.JLabel();
-        jLabel8 = new javax.swing.JLabel();
-        jLabel9 = new javax.swing.JLabel();
-        jLabel10 = new javax.swing.JLabel();
-        jLabel11 = new javax.swing.JLabel();
-        jLabel12 = new javax.swing.JLabel();
-        jLabel13 = new javax.swing.JLabel();
-        jLabel14 = new javax.swing.JLabel();
-        jLabel15 = new javax.swing.JLabel();
-        jLabel16 = new javax.swing.JLabel();
+        a3 = new javax.swing.JLabel();
+        b3 = new javax.swing.JLabel();
+        c3 = new javax.swing.JLabel();
+        d3 = new javax.swing.JLabel();
+        a4 = new javax.swing.JLabel();
+        b4 = new javax.swing.JLabel();
+        c4 = new javax.swing.JLabel();
+        d4 = new javax.swing.JLabel();
+        a5 = new javax.swing.JLabel();
+        b5 = new javax.swing.JLabel();
+        c5 = new javax.swing.JLabel();
+        d5 = new javax.swing.JLabel();
+        Percentlbl = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -76,7 +77,7 @@ public class MultiChoiceQuiz extends javax.swing.JFrame {
 
         q3lbl.setText("Question 3. what type of bonds do fatty acids form");
 
-        q4lbl.setText("Question 4.how does the human body regulate enzyme activity");
+        q4lbl.setText("Question 4. how does the human body regulate enzyme activity");
 
         q5lbl.setText("Question 5. what kind of bond forms between two cysteines");
 
@@ -87,13 +88,13 @@ public class MultiChoiceQuiz extends javax.swing.JFrame {
             }
         });
 
-        a1lbl.setText("a)");
+        a1lbl.setText("a) the creation of  immunoglobulins and antibodies ");
 
-        b1lbl.setText("b)");
+        b1lbl.setText("b) the Transportation of nutrients");
 
         c1lbl.setText("c) Breaking of tertiary structure bonds");
 
-        d1lbl.setText("d)");
+        d1lbl.setText("d) the process of storing nutrients");
 
         q5txt.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -109,88 +110,44 @@ public class MultiChoiceQuiz extends javax.swing.JFrame {
 
         a2.setText("a) 1:3:5");
 
-        b2.setText(" b) 3:2:9");
+        b2.setText("b) 3:2:9");
 
         c2.setText("c) 4:2:5");
 
         d2.setText("d) 1:2:1");
 
-        jLabel5.setText("a) Ester linkages");
+        a3.setText("a) Ester linkages");
 
-        jLabel6.setText("b)");
+        b3.setText("b)polypeptide");
 
-        jLabel7.setText("c)");
+        c3.setText("c) triglycerides");
 
-        jLabel8.setText("d)");
+        d3.setText("d) Polar Covalent");
 
-        jLabel9.setText("a)");
+        a4.setText("a) Feedback regulation ");
 
-        jLabel10.setText("b) Feedback inhibition");
+        b4.setText("b) Feedback inhibition");
 
-        jLabel11.setText("c)");
+        c4.setText("c) Enzyme kinetics ");
 
-        jLabel12.setText("d)");
+        d4.setText("d) Competitive inhibitor ");
 
-        jLabel13.setText("a) Disulfide bridge");
+        a5.setText("a) Disulfide bridge");
 
-        jLabel14.setText("b)");
+        b5.setText("b) resulfide bridge");
 
-        jLabel15.setText("c)");
+        c5.setText("c) Globular Bonds");
 
-        jLabel16.setText("d)");
+        d5.setText("d) Saturated Bonds");
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
         jPanel2Layout.setHorizontalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel2Layout.createSequentialGroup()
-                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addGap(19, 19, 19)
-                        .addComponent(q1lbl)
-                        .addGap(26, 26, 26)
-                        .addComponent(q4lbl))
-                    .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addContainerGap()
-                        .addComponent(q2txt, javax.swing.GroupLayout.PREFERRED_SIZE, 65, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
-                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(jPanel2Layout.createSequentialGroup()
-                                .addGap(16, 16, 16)
-                                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(d2)
-                                    .addComponent(c2)
-                                    .addComponent(a2)
-                                    .addComponent(jLabel5)
-                                    .addComponent(jLabel6)
-                                    .addComponent(jLabel7)
-                                    .addComponent(q1txt, javax.swing.GroupLayout.PREFERRED_SIZE, 62, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(b2)
-                                    .addComponent(jLabel8))
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
-                                .addContainerGap()
-                                .addComponent(q2lbl, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addGap(81, 81, 81)))
-                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(answersbtn)
-                            .addGroup(jPanel2Layout.createSequentialGroup()
-                                .addGap(109, 109, 109)
-                                .addComponent(scorelbl, javax.swing.GroupLayout.PREFERRED_SIZE, 105, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(q5lbl, javax.swing.GroupLayout.PREFERRED_SIZE, 304, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(q5txt, javax.swing.GroupLayout.PREFERRED_SIZE, 59, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                .addComponent(q4txt, javax.swing.GroupLayout.PREFERRED_SIZE, 53, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(jLabel9)
-                                .addComponent(jLabel10)
-                                .addComponent(jLabel11)
-                                .addComponent(jLabel12)
-                                .addComponent(jLabel13)
-                                .addComponent(jLabel14)
-                                .addComponent(jLabel15)
-                                .addComponent(jLabel16)))))
-                .addGap(307, 307, 307))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(q2lbl, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addGap(385, 385, 385))
             .addGroup(jPanel2Layout.createSequentialGroup()
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel2Layout.createSequentialGroup()
@@ -199,13 +156,56 @@ public class MultiChoiceQuiz extends javax.swing.JFrame {
                             .addComponent(d1lbl)
                             .addComponent(c1lbl)
                             .addComponent(b1lbl)
-                            .addComponent(a1lbl)))
+                            .addComponent(a1lbl))
+                        .addGap(131, 131, 131)
+                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(q5lbl, javax.swing.GroupLayout.PREFERRED_SIZE, 304, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(q5txt, javax.swing.GroupLayout.PREFERRED_SIZE, 59, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addComponent(q4txt, javax.swing.GroupLayout.PREFERRED_SIZE, 53, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(a4)
+                                .addComponent(b4)
+                                .addComponent(a5)
+                                .addComponent(b5)
+                                .addComponent(c5)
+                                .addComponent(d5)
+                                .addComponent(d4))
+                            .addComponent(q4lbl)
+                            .addComponent(c4)))
                     .addGroup(jPanel2Layout.createSequentialGroup()
                         .addContainerGap()
                         .addComponent(q3txt, javax.swing.GroupLayout.PREFERRED_SIZE, 65, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addGap(0, 0, Short.MAX_VALUE))
+                .addGap(0, 30, Short.MAX_VALUE))
             .addGroup(jPanel2Layout.createSequentialGroup()
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel2Layout.createSequentialGroup()
+                        .addGap(16, 16, 16)
+                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(d2)
+                            .addComponent(c2)
+                            .addComponent(a2)
+                            .addComponent(q1txt, javax.swing.GroupLayout.PREFERRED_SIZE, 62, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(b2)
+                            .addComponent(b3)
+                            .addGroup(jPanel2Layout.createSequentialGroup()
+                                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(c3)
+                                    .addComponent(d3))
+                                .addGap(266, 266, 266)
+                                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(answersbtn)
+                                    .addComponent(Percentlbl, javax.swing.GroupLayout.PREFERRED_SIZE, 129, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                            .addGroup(jPanel2Layout.createSequentialGroup()
+                                .addComponent(a3)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(scorelbl, javax.swing.GroupLayout.PREFERRED_SIZE, 275, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                    .addGroup(jPanel2Layout.createSequentialGroup()
+                        .addGap(19, 19, 19)
+                        .addComponent(q1lbl))
+                    .addGroup(jPanel2Layout.createSequentialGroup()
+                        .addContainerGap()
+                        .addComponent(q2txt, javax.swing.GroupLayout.PREFERRED_SIZE, 65, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(jPanel2Layout.createSequentialGroup()
                         .addContainerGap()
                         .addComponent(q3lbl, javax.swing.GroupLayout.PREFERRED_SIZE, 259, javax.swing.GroupLayout.PREFERRED_SIZE))
@@ -215,7 +215,7 @@ public class MultiChoiceQuiz extends javax.swing.JFrame {
                     .addGroup(jPanel2Layout.createSequentialGroup()
                         .addGap(184, 184, 184)
                         .addComponent(instructionslbl)))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addGap(163, 163, 163))
         );
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -225,12 +225,12 @@ public class MultiChoiceQuiz extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(instructionslbl)
                 .addGap(18, 18, 18)
-                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(q1lbl)
-                    .addComponent(q4lbl))
+                .addComponent(q1lbl)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(q4lbl)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
+                    .addGroup(jPanel2Layout.createSequentialGroup()
                         .addComponent(a1lbl)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addComponent(b1lbl)
@@ -252,43 +252,45 @@ public class MultiChoiceQuiz extends javax.swing.JFrame {
                         .addComponent(d2)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(q2txt, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
-                        .addComponent(jLabel9)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(jLabel10)
+                    .addGroup(jPanel2Layout.createSequentialGroup()
+                        .addComponent(a4)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jLabel11)
+                        .addComponent(b4)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jLabel12)
+                        .addComponent(c4)
+                        .addGap(11, 11, 11)
+                        .addComponent(d4)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(q4txt, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(1, 1, 1)
                         .addComponent(q5lbl, javax.swing.GroupLayout.PREFERRED_SIZE, 14, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(jLabel13)
+                        .addComponent(a5)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jLabel14)
+                        .addComponent(b5)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jLabel15)
+                        .addComponent(c5)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jLabel16)
+                        .addComponent(d5)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(q5txt, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(20, 20, 20)))
+                        .addComponent(q5txt, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(q3lbl)
-                .addGap(13, 13, 13)
-                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
-                        .addComponent(jLabel5)
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addGroup(jPanel2Layout.createSequentialGroup()
+                        .addComponent(q3lbl)
+                        .addGap(13, 13, 13)
+                        .addComponent(a3)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jLabel6)
+                        .addComponent(b3)
                         .addGap(9, 9, 9)
-                        .addComponent(jLabel7))
-                    .addComponent(scorelbl, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addComponent(c3))
+                    .addGroup(jPanel2Layout.createSequentialGroup()
+                        .addComponent(scorelbl, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(18, 18, 18)
+                        .addComponent(Percentlbl, javax.swing.GroupLayout.PREFERRED_SIZE, 22, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel8)
+                    .addComponent(d3)
                     .addComponent(answersbtn))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(q3txt, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -299,7 +301,7 @@ public class MultiChoiceQuiz extends javax.swing.JFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, 648, javax.swing.GroupLayout.PREFERRED_SIZE)
+            .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -311,6 +313,7 @@ public class MultiChoiceQuiz extends javax.swing.JFrame {
 
     private void answersbtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_answersbtnActionPerformed
     int answersright=0;
+    int percent=0;
     String a1;
     String a2;
     String a3;
@@ -364,8 +367,14 @@ public class MultiChoiceQuiz extends javax.swing.JFrame {
      else
          answersright=answersright;}
      
+     if (answersright>=4)
+     scorelbl.setText("you got "+answersright+"/5 congratulations");
      
-     scorelbl.setText("you got "+answersright+"/5");
+     else
+         scorelbl.setText("you got "+answersright+"/5 I Know you can do better if you try again");
+     
+   percent=answersright*100/5;
+   Percentlbl.setText("you got "+percent);
      
     }//GEN-LAST:event_answersbtnActionPerformed
 
@@ -413,29 +422,30 @@ public class MultiChoiceQuiz extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JLabel Percentlbl;
     private javax.swing.JLabel a1lbl;
     private javax.swing.JLabel a2;
+    private javax.swing.JLabel a3;
+    private javax.swing.JLabel a4;
+    private javax.swing.JLabel a5;
     private javax.swing.JButton answersbtn;
     private javax.swing.JLabel b1lbl;
     private javax.swing.JLabel b2;
+    private javax.swing.JLabel b3;
+    private javax.swing.JLabel b4;
+    private javax.swing.JLabel b5;
     private javax.swing.JLabel c1lbl;
     private javax.swing.JLabel c2;
+    private javax.swing.JLabel c3;
+    private javax.swing.JLabel c4;
+    private javax.swing.JLabel c5;
     private javax.swing.JLabel csqlbl;
     private javax.swing.JLabel d1lbl;
     private javax.swing.JLabel d2;
+    private javax.swing.JLabel d3;
+    private javax.swing.JLabel d4;
+    private javax.swing.JLabel d5;
     private javax.swing.JLabel instructionslbl;
-    private javax.swing.JLabel jLabel10;
-    private javax.swing.JLabel jLabel11;
-    private javax.swing.JLabel jLabel12;
-    private javax.swing.JLabel jLabel13;
-    private javax.swing.JLabel jLabel14;
-    private javax.swing.JLabel jLabel15;
-    private javax.swing.JLabel jLabel16;
-    private javax.swing.JLabel jLabel5;
-    private javax.swing.JLabel jLabel6;
-    private javax.swing.JLabel jLabel7;
-    private javax.swing.JLabel jLabel8;
-    private javax.swing.JLabel jLabel9;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JLabel q1lbl;
     private javax.swing.JTextField q1txt;
